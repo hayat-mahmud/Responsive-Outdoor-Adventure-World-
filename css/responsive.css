@@ -160,13 +160,29 @@ object-fit: cover;
 
 
 /* Footer */
+
+footer {
+    /* background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px; */
+    
+    /* padding: 5px 20px; */
+    margin-bottom: 5px;
+    width: 100%;
+    margin: 0;
+    width: 100%;
+    background-color: blue;
+}
+
+
     .footer{
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 20px 0 20px 20px;
-    
-        background-color: blue;
+        /* padding: 20px 0 20px 20px; */
+        /* padding: 10px; */
+        width: 95%;
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10px;
