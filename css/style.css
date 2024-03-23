@@ -343,6 +343,7 @@ footer{
     
     /* padding: 5px 20px; */
     margin-bottom: 5px;
+     width:100%
 }
 .footer{
     display: flex;
@@ -351,6 +352,7 @@ footer{
     gap: 30px;
     align-items: center;
     padding: 20px 0 20px 20px;
+   
 
     background-color: blue;
     background-repeat: no-repeat;
