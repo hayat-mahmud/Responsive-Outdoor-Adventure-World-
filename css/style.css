@@ -335,7 +335,7 @@ margin: auto;
 
 
 /* Footer Section */
-footer{
+footer {
     /* background-color: blue;
     background-repeat: no-repeat;
     background-size: cover;
@@ -343,27 +343,35 @@ footer{
     
     /* padding: 5px 20px; */
     margin-bottom: 5px;
-     width:100%
+    width: 100%;
+    margin: 0;
+    width: 100%;
+    background-color: blue;
 }
 .footer{
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
-    gap: 30px;
+    /* gap: 30px; */
     align-items: center;
-    padding: 20px 0 20px 20px;
-   
+    /* padding: 20px 0 20px 20px; */
 
-    background-color: blue;
+    /* background-color: blue; */
+    width: 95%;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    margin: auto;
+    padding: auto ;
+    justify-content: center;
+    align-items: center;
    
     
     
 }
 .footer div{
     align-items:top;
+    margin: 30px;
 }
 .footer div h3{
     margin: 0 0;
@@ -383,29 +391,42 @@ footer{
 
 .footer .ul{
     /* border-style: solid ; */
-    padding: 3px;
+    /* padding: 3px; */
+    /* align-items: center; */
 
 }
 .footer div ul{
-    margin: 0 0;
-    padding: 0 0;
-    display: ;
+    margin: 0 ;
+    padding: 0 ;
+    display: inline;
     /* border: 2px black; */
+    
 }
 .footer div ul li{
    list-style: none;
    /* display: inline-block; */
    /* border: 2px black; */
+   display: inline-block ;
+
+   /* flex-direction: column; */
+   /* column-gap: 0px; */
+   width: 100%;
+   
 }
+
 .footer div ul li .fa-brands{
     color: white;
     padding: 2px;
+   
+
 }
 .footer div ul li a {
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
     /* display: inline; */
     color: white;
+   
+   
 }
 
 .copyright{
@@ -421,6 +442,7 @@ footer{
     /* border-top: 2px ;
     border-style: solid white; */
     margin-top: 20px;
+    color: white;
     
 }
 .address{
